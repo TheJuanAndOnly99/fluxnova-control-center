@@ -9,6 +9,7 @@ env:
 on:
   push:
     branches:
+      - main
       - develop
       - 'release/**'
       - 'hotfix/**'
